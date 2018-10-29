@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,400i,700');
+
+@import "tailwindcss/preflight";
+
+/* Add custom base styles here... */
+
+@import "tailwindcss/components";
+
+/* Add custom components here... */
+
+@import "tailwindcss/utilities";
+
+/* Add custom utilities here... */
+
+.navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.navbar {
+    @apply relative flex flex-wrap items-center justify-between;
+    padding: 0.5rem 1rem;
+}
+
+.navbar > .container{
+    @apply flex flex-wrap items-center justify-between;
+}
